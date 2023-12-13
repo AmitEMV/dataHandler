@@ -3,5 +3,5 @@ A simple node server which accepts the memory usage data published from a Window
 Redis is configured to replicate to a Read Only instance from which the Grafana instance reads the published memory data and generates the graph/visualization. 
 Alerts are configured in Grafana to publish to Slack if the memory usage goes beyond the set threshold.
 
-Here's a sscreenshot of the Grafana dashboard showing the memory usage on the client machine
+Here's a screenshot of the Grafana dashboard showing the memory usage on the client machine
 ![Grafana dashboard for systemmemory usage](https://github.com/AmitEMV/dataHandler/blob/main/screenshots/High%20memory%20usage.png?raw=true)
